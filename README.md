@@ -16,7 +16,9 @@
 
 ## 公開URL
 
-https://yutoyoshitani.github.io/s1c302401077-sudo.github.io/
+https://yutoyoshitani.github.io/
+
+公開リポジトリは `YutoYoshitani/YutoYoshitani.github.io` である
 
 ## GitHub Pagesへ公開する場合
 
