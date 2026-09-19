@@ -42,6 +42,13 @@
     let returnFocus = null;
     let previousOverflow = "";
     close.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("keydown", (event) => {
+      // The close button is the viewer's only interactive control
+      if (event.key === "Tab") {
+        event.preventDefault();
+        close.focus();
+      }
+    });
     dialog.addEventListener("click", (event) => {
       if (event.target !== dialog) return;
       const box = dialog.getBoundingClientRect();
