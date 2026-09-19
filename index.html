@@ -3,104 +3,88 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="課題を見つけ、データや対話を判断材料に変え、周囲を巻き込みながら企画を実行するポートフォリオ">
-  <title>YUTO / Portfolio</title>
+  <meta name="description" content="課題を見つけ、データや対話を判断材料に変え、周囲とともに企画を形にする 芳谷優斗のポートフォリオ">
+  <meta name="theme-color" content="#17194c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="芳谷優斗 | YUTO YOSHITANI — Portfolio">
+  <meta property="og:description" content="課題を見つけ、データや対話を判断材料に変え、周囲とともに企画を形にする 芳谷優斗のポートフォリオ">
+  <meta property="og:url" content="https://yutoyoshitani.github.io/">
+  <meta property="og:image" content="https://yutoyoshitani.github.io/assets/portrait.jpg">
+  <link rel="canonical" href="https://yutoyoshitani.github.io/">
+  <title>芳谷優斗 | YUTO YOSHITANI — Portfolio</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="assets/site.css?v=20260919-3">
+  <link rel="stylesheet" href="assets/site.css?v=20260919-4">
+  <script src="assets/site.js?v=20260919-4" defer></script>
 </head>
-<body class="page-home">
+<body class="page-home" id="top">
+  <a class="skip-link" href="#main">本文へ移動</a>
   <header class="site-header">
-    <a class="wordmark" href="index.html"><span>YUTO</span><small>PORTFOLIO / 2026</small></a>
-    <nav aria-label="主要メニュー">
-      <a class="active" href="index.html">トップ</a>
-      <a href="stories/index.html">取り組み</a>
-      <a href="research/index.html">研究</a>
-      <a href="about/index.html">人物</a>
-    </nav>
+    <a class="wordmark" href="index.html" aria-label="芳谷優斗のポートフォリオ トップ"><strong>YUTO YOSHITANI</strong><span>PORTFOLIO</span></a>
+    <nav aria-label="主要メニュー"><a href="index.html" aria-current="page"><span class="nav-number" aria-hidden="true">00</span>トップ</a><a href="stories/index.html"><span class="nav-number" aria-hidden="true">01</span>取り組み</a><a href="research/index.html"><span class="nav-number" aria-hidden="true">02</span>研究</a><a href="about/index.html"><span class="nav-number" aria-hidden="true">03</span>人物</a></nav>
   </header>
-
-  <main>
-    <section class="hero hero-home">
+  <main id="main" tabindex="-1">
+    <section class="home-hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">課題発見 × データ × 企画実行</p>
-        <h1>考えて、<br>確かめて、<br><em>巻き込み、実行する</em></h1>
-        <p class="lead">課題を見つけ、データや対話を判断材料に変え、周囲とともに企画を形にしてきた</p>
-        <div class="hero-actions">
-          <a class="button button-light" href="stories/index.html">取り組みを見る <span>↗</span></a>
-          <a class="text-link light-link" href="research/index.html">研究の進め方を見る</a>
-        </div>
+        <p class="eyebrow">東洋大学 / 2028年3月卒業予定</p>
+        <h1 id="hero-title"><span>考えて、</span><span>確かめて、</span><span class="accent">巻き込み、実行する</span></h1>
+        <p class="hero-lead">課題を見つけ、データや対話を判断材料に変え、<br class="desktop-break">周囲とともに企画を形にしてきた</p>
+        <div class="hero-links"><a class="text-link" href="#selected">主な取り組みを読む <span aria-hidden="true">↓</span></a><a class="quiet-link" href="about/index.html">人物を知る <span aria-hidden="true">↗</span></a></div>
       </div>
-      <div class="hero-index" aria-label="ポートフォリオの視点">
-        <figure class="hero-portrait">
-          <img src="assets/portrait.jpg" alt="芳谷優斗の顔写真">
-          <figcaption>YUTO / TOYO UNIVERSITY</figcaption>
+      <figure class="hero-portrait">
+        <img src="assets/portrait.jpg" alt="芳谷優斗のポートレート" width="450" height="600" fetchpriority="high">
+        <figcaption><strong>芳谷 優斗</strong><span>YUTO YOSHITANI</span></figcaption>
+      </figure>
+      <div class="hero-foot"><span>課題発見 × データ × 企画実行</span><span>企画・研究・組織づくりの記録</span></div>
+    </section>
+
+    <section class="selected-work wrap section-space" id="selected" aria-labelledby="selected-title">
+      <div class="section-heading"><p class="eyebrow">01 / SELECTED WORK</p><h2 id="selected-title">考えたことを、<br>動く形に</h2><p>データを読み、商品を試作し、人が動ける場をつくる<br>取り組む対象が変わっても、考えることと実行することをつなげてきた</p></div>
+      <article class="feature-story">
+        <figure class="work-image">
+          <a href="stories/index.html#kitchencar" aria-label="キッチンカー商品企画のストーリーを読む"><img src="assets/canva-kitchen-menu.png" alt="キッチンカー企画2025年メニュー一覧の案内デザイン" width="596" height="336" loading="lazy"></a>
+          <figcaption>キッチンカー企画で制作した案内デザイン</figcaption>
         </figure>
-        <div class="index-rule"></div>
-        <p class="index-label">MY WORKING LOOP</p>
-        <ol>
-          <li><span>01</span>問いを立てる</li>
-          <li><span>02</span>データと対話で確かめる</li>
-          <li><span>03</span>企画に変える</li>
-          <li><span>04</span>周囲と実行する</li>
-        </ol>
-        <p class="index-note">分析は目的ではなく<br>意思決定を前へ進める道具</p>
-      </div>
-    </section>
-
-    <section class="section section-intro">
-      <div class="section-kicker">01 / SELECTED WORK</div>
-      <div class="section-heading split-heading">
-        <h2>数字の先にある<br><span>行動</span>まで考える</h2>
-        <p>企画、研究、組織づくりに共通するのは、考えたことを現場で試し、周囲と一緒に前へ進める姿勢である</p>
-      </div>
-      <div class="featured-grid">
-        <a class="featured-card featured-card-main" href="stories/index.html#kitchencar">
-          <div class="card-topline"><span>STORY 01</span><span>企画・実行</span></div>
-          <h3>キッチンカー<br>商品企画</h3>
-          <p>POSデータと試作をもとに、選ばれやすいメニューと売場を設計</p>
-          <div class="metric-row"><strong>363</strong><span>食を3日間で完売</span></div>
-          <span class="card-arrow">↗</span>
-        </a>
-        <a class="featured-card featured-card-research" href="research/index.html#conference">
-          <div class="card-topline"><span>RESEARCH 01</span><span>分析・発表</span></div>
-          <h3>日本フード<br>システム学会研究</h3>
-          <p>975件のデータを分析し、筆頭著者として発表まで担当</p>
-          <div class="metric-row"><strong>975</strong><span>件の回答を分析</span></div>
-          <span class="card-arrow">↗</span>
-        </a>
-        <a class="featured-card featured-card-org" href="stories/index.html#toyolab">
-          <div class="card-topline"><span>STORY 02</span><span>組織・巻き込み</span></div>
-          <h3>TOYO FOOD LAB<br>代表・組織改善</h3>
-          <p>参加しやすく、動きやすい状態をつくるために運営を見直した</p>
-          <div class="metric-row"><strong>4</strong><span>つの運営改善を試行</span></div>
-          <span class="card-arrow">↗</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="section section-loop">
-      <div class="section-kicker">02 / THE WAY I WORK</div>
-      <div class="loop-layout">
-        <h2>課題を見つけてから<br>形にするまで</h2>
-        <div class="loop-list">
-          <div class="loop-item"><span>01</span><div><h3>問いを立てる</h3><p>現場の違和感や選ばれ方の変化を出発点にする</p></div></div>
-          <div class="loop-item"><span>02</span><div><h3>確かめる</h3><p>データ、観察、対話を組み合わせて判断材料をつくる</p></div></div>
-          <div class="loop-item"><span>03</span><div><h3>動かす</h3><p>企画に落とし込み、役割を分け、周囲と実行する</p></div></div>
+        <div class="feature-copy">
+          <p class="eyebrow">01 — 企画から販売まで</p>
+          <h3><a href="stories/index.html#kitchencar">データと試作で、<br>選ばれるメニューを考える</a></h3>
+          <p class="work-name">キッチンカー商品企画 / チームリーダー</p>
+          <p>POSデータを確認し、5回の試作とメニュー設計へつなげた<br>商品を考えるところから、販売の現場まで関わった</p>
+          <p class="big-fact"><strong>363</strong><span>食を3日間で完売</span></p>
+          <a class="text-link" href="stories/index.html#kitchencar">企画と実行のストーリー <span aria-hidden="true">↗</span></a>
         </div>
-      </div>
+      </article>
+
+      <article class="feature-research">
+        <div class="research-stat"><p class="eyebrow">02 — 問いから分析・発表まで</p><p class="big-fact"><strong>975</strong><span>件のデータを分析</span></p><p>筆頭著者・主担当<br>日本フードシステム学会</p></div>
+        <div class="feature-copy"><h3>生産者との会話は、<br>野菜購買にどう関わるか</h3><p>ロジスティック回帰とモデル比較を用い、消費者の属性や意識に着目して分析した<br>2026年6月21日に学会で発表</p><a class="text-link" href="research/index.html#conference">研究の問いと進め方 <span aria-hidden="true">↗</span></a></div>
+      </article>
+
+      <article class="feature-organization">
+        <div><p class="eyebrow">03 — 周囲が動ける組織へ</p><h3>自分が抱える仕事を、<br>みんなが動ける仕組みへ</h3><p class="work-name">TOYO FOOD LAB代表・組織改善</p></div>
+        <div><p>時間設定、次回予告、提案箱、担当制度を試した<br>効果の薄い施策は中止し、後輩へ役割を移した</p><a class="text-link" href="stories/index.html#toyolab">運営をどう見直したか <span aria-hidden="true">↗</span></a></div>
+      </article>
+      <a class="section-tail-link" href="stories/index.html">3つの軸から、ほかの取り組みも読む <span aria-hidden="true">→</span></a>
     </section>
 
-    <section class="section section-cta">
-      <p class="eyebrow">MORE THAN A RESULT</p>
-      <h2>結果だけでなく<br><em>そこへ至る考え方</em>を見せる</h2>
-      <a class="button button-dark" href="about/index.html">人物ページへ <span>↗</span></a>
+    <section class="working-section" aria-labelledby="working-title">
+      <div class="wrap working-layout">
+        <div><p class="eyebrow">02 / THE WAY I WORK</p><h2 id="working-title">分析は目的ではなく、<br>意思決定を<br>前へ進める道具</h2><p>数字から分かることを、企画や実行へ<br>結果を見て、次に何を変えるかを考える</p></div>
+        <ol class="working-loop">
+          <li><span>01</span><div><h3>問いを立てる</h3><p>現場や利用者を見て、考えるべき課題を捉える</p></div></li>
+          <li><span>02</span><div><h3>データと対話で確かめる</h3><p>観察、データ、相手の言葉を判断材料にする</p></div></li>
+          <li><span>03</span><div><h3>企画に変える</h3><p>何を試すか、どう確かめるかまで考える</p></div></li>
+          <li><span>04</span><div><h3>周囲と実行する</h3><p>役割を持って動ける状態をつくり、結果から次を考える</p></div></li>
+        </ol>
+      </div>
+    </section>
+    <section class="wrap person-invitation section-space" aria-labelledby="person-link-title">
+      <p class="eyebrow">03 / BEYOND THE WORK</p><h2 id="person-link-title">研究の外でも、<br>まずは試してみる</h2><div><p>角煮の味付けを変えてみる<br>知らない料理の店に入ってみる<br>そんな日常にも、好奇心と試行錯誤がある</p><a class="text-link" href="about/index.html">5つの言葉と、普段の自分 <span aria-hidden="true">↗</span></a></div>
     </section>
   </main>
-
   <footer class="site-footer">
-    <div><strong>YUTO / PORTFOLIO</strong><span>課題を見つけ、企画を動かす</span></div>
-    <div><span>公開用連絡先は公開準備時に設定</span><span>© <span data-year></span> YUTO</span></div>
+    <div><a class="footer-name" href="index.html">Yuto Yoshitani</a><p>芳谷 優斗 · 東洋大学 · 2028年3月卒業予定</p></div>
+    <a class="back-top" href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a>
+    <small>© <span data-year>2026</span> Yuto Yoshitani</small>
   </footer>
-  <script src="assets/site.js"></script>
 </body>
 </html>

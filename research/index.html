@@ -3,49 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="問いを立て、データを集め、結果を解釈し、次の判断へつなげる研究姿勢">
-  <title>研究 / YUTO</title>
+  <meta name="description" content="問いを立て、データからどこまで判断できるかを考える 学会発表、映像比較実験、現在構想中の仮想店舗研究">
+  <meta name="theme-color" content="#17194c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="研究 | 芳谷 優斗">
+  <meta property="og:description" content="問いを立て、データからどこまで判断できるかを考える 学会発表、映像比較実験、現在構想中の仮想店舗研究">
+  <meta property="og:url" content="https://yutoyoshitani.github.io/research/">
+  <meta property="og:image" content="https://yutoyoshitani.github.io/assets/portrait.jpg">
+  <link rel="canonical" href="https://yutoyoshitani.github.io/research/">
+  <title>研究 | 芳谷 優斗</title>
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../assets/site.css?v=20260919-3">
+  <link rel="stylesheet" href="../assets/site.css?v=20260919-4">
+  <script src="../assets/site.js?v=20260919-4" defer></script>
 </head>
-<body class="page-research">
+<body class="page-research" id="top">
+  <a class="skip-link" href="#main">本文へ移動</a>
   <header class="site-header">
-    <a class="wordmark" href="../index.html"><span>YUTO</span><small>PORTFOLIO / 2026</small></a>
-    <nav aria-label="主要メニュー"><a href="../index.html">トップ</a><a href="../stories/index.html">取り組み</a><a class="active" href="index.html">研究</a><a href="../about/index.html">人物</a></nav>
+    <a class="wordmark" href="../index.html" aria-label="芳谷優斗のポートフォリオ トップ"><strong>YUTO YOSHITANI</strong><span>PORTFOLIO</span></a>
+    <nav aria-label="主要メニュー"><a href="../index.html"><span class="nav-number" aria-hidden="true">00</span>トップ</a><a href="../stories/index.html"><span class="nav-number" aria-hidden="true">01</span>取り組み</a><a href="../research/index.html" aria-current="page"><span class="nav-number" aria-hidden="true">02</span>研究</a><a href="../about/index.html"><span class="nav-number" aria-hidden="true">03</span>人物</a></nav>
   </header>
-  <main>
-    <section class="page-hero section">
-      <div class="section-kicker">02 / RESEARCH</div>
-      <div class="page-hero-grid"><h1>問いを立てて<br><em>確かめる</em></h1><div><p class="lead">分析手法の多さではなく、問いを立て、データを集め、結果を解釈し、次の判断へつなげる研究姿勢を見せる</p><p>確かめられたことと、まだ分からないことを分けて説明する</p></div></div>
-    </section>
+<main id="main" tabindex="-1">
+  <section class="page-intro wrap">
+    <p class="eyebrow">02 / RESEARCH</p>
+    <div class="intro-grid">
+      <h1>見えた違いを、<br><em>判断の根拠にする</em></h1>
+      <p class="lead">会話や映像、商品の見せ方で、人の選び方は変わるのか<br>問いをデータに変え、分かったことと、まだ分からないことを切り分ける</p>
+    </div>
+    <nav class="chapter-nav" aria-label="研究の章">
+      <a href="#current"><span>01</span> これからの問い</a>
+      <a href="#conference"><span>02</span> 学会発表</a>
+      <a href="#signage"><span>03</span> 実験と調査</a>
+    </nav>
+  </section>
 
-    <section class="section current-research" id="current">
-      <div class="section-kicker">CURRENT DIRECTION / IN PROGRESS</div>
-      <div class="research-hero-grid">
-        <div><h2>仮想店舗の見え方が<br><em>選択に与える影響</em></h2><p class="lead">3D空間の中で商品の見せ方を変え、消費者の印象や選択との関係を考える研究</p></div>
-        <div class="research-note"><span class="note-label">制作ノート</span><p>3D scan<br>→ Blender<br>→ Unity<br>→ 実験設計</p><span class="note-stamp">STATUS / EXPLORING</span></div>
+  <section class="current-research wrap section-space" id="current">
+    <div class="section-heading">
+      <div><p class="eyebrow">NEXT QUESTION</p><h2>同じ商品でも、<br>見え方が変わると選択は変わるか</h2></div>
+      <p><span class="status status-planned">構想・設計段階</span><br>仮想店舗の見え方が選択に与える影響</p>
+    </div>
+    <div class="research-notebook">
+      <div class="notebook-question">
+        <p class="note-label">考えていること</p>
+        <p>棚に並べるか、ジャンブル陳列にするか<br>配置、棚の角度、照明を変えたとき、商品の印象や選択にどのような違いが生まれるのかを調べたい</p>
+        <p>実際の店舗では切り分けにくい「見え方」の条件を、3D空間で変えながら比較する研究を構想している</p>
       </div>
-      <div class="research-process"><div><span>01</span><h3>つくる</h3><p>商品を3Dスキャンし、Blenderでモデルを調整</p></div><div><span>02</span><h3>並べる</h3><p>Unityで緑茶商品の棚やジャンブル陳列を再現</p></div><div><span>03</span><h3>比べる</h3><p>配置、棚の角度、照明、全体の見え方を調整</p></div><div><span>04</span><h3>問う</h3><p>印象、選択、支払意思額、視線との関係を検討</p></div></div>
-      <div class="callout"><strong>現在地</strong><span>卒業研究の正式テーマ、実験設計、データ収集、結果は未確定</span></div>
-    </section>
-
-    <section class="section" id="conference">
-      <div class="section-heading split-heading"><div><div class="section-kicker">PAST STUDIES</div><h2>過去の研究</h2></div><p>研究の詳細では、問い、データ、分析、限界、次の判断までを一つの流れで表示する</p></div>
-      <div class="research-grid">
-        <article class="research-card research-card-feature"><div class="card-topline"><span>01</span><span>学会発表</span></div><h3>日本フードシステム学会研究</h3><p>農産物直売所における生産者との会話が野菜購買に与える影響を分析</p><figure class="research-media"><img src="../assets/canva-conference.png" alt="Canvaで作成した日本フードシステム学会発表資料の画像"><figcaption>Canvaで作成した学会発表資料</figcaption></figure><div class="metric-row"><strong>975</strong><span>件を分析</span></div><ul><li>筆頭著者・主担当</li><li>ロジスティック回帰</li><li>モデル比較</li><li>2026年6月21日発表</li></ul></article>
-        <article class="research-card"><div class="card-topline"><span>02</span><span>比較実験</span></div><h3>サイネージ映像比較実験</h3><p>5映像の評価を設計し、制作からR分析まで一貫して担当</p><div class="metric-row"><strong>320</strong><span>観測</span></div><ul><li>Bのみ購入可能性が有意に低い</li><li>上位4案間の差は未確認</li></ul></article>
-        <article class="research-card"><div class="card-topline"><span>03</span><span>調査研究</span></div><h3>道の駅出荷者調査</h3><p>出荷継続要因を分析し、学内報告会から学会研究へ発展</p><div class="metric-row"><strong>1位</strong><span>17報告中</span></div><ul><li>回帰分析</li><li>学内報告会</li><li>研究の発展</li></ul></article>
-        <article class="research-card"><div class="card-topline"><span>04</span><span>現場実験</span></div><h3>券売機表示実験</h3><p>湯気ありと湯気なしの広告を比較し、結果の限界も整理</p><div class="metric-row"><strong>差なし</strong><span>有意差未確認</span></div><ul><li>二つの券売機へ固定</li><li>無作為割付ではない</li></ul></article>
-        <article class="research-card"><div class="card-topline"><span>05</span><span>消費者行動</span></div><h3>リンゴ消費者行動調査</h3><p>贈答用と通常のリンゴに対する許容価格を比較</p><div class="metric-row"><strong>差あり</strong><span>有意差を確認</span></div><ul><li>詳細な標本情報は確認後に掲載</li></ul></article>
+      <div class="notebook-process">
+        <p class="note-label">検討中の制作・実験プロセス</p>
+        <ol class="research-process">
+          <li><span>01</span><div><h3>商品を取り込む</h3><p>3Dスキャンで形を取得</p></div></li>
+          <li><span>02</span><div><h3>モデルを整える</h3><p>Blenderで調整</p></div></li>
+          <li><span>03</span><div><h3>見せ方を変える</h3><p>Unityで棚や陳列を再現</p></div></li>
+        </ol>
       </div>
-    </section>
+    </div>
+    <div class="research-footnote"><p><strong>検討する指標</strong>　印象・選択・支払意思額・視線</p><p>正式テーマ、実験設計、データ収集、分析結果は未確定である</p></div>
+  </section>
 
-    <section class="section research-method">
-      <div class="section-kicker">HOW TO READ THE WORK</div><h2>研究ページの<br><em>見せ方</em></h2>
-      <div class="method-list"><div><span>問い</span><p>何を知りたいのか</p></div><div><span>データ</span><p>何をどのように集めたのか</p></div><div><span>分析</span><p>どの方法で確かめたのか</p></div><div><span>判断</span><p>企画や次の研究へ何をつなげるのか</p></div></div>
-    </section>
-  </main>
-  <footer class="site-footer"><div><strong>YUTO / PORTFOLIO</strong><span>研究と意思決定</span></div><div><a href="../stories/index.html">取り組みへ ↗</a><a href="../about/index.html">人物へ ↗</a></div></footer>
-  <script src="../assets/site.js"></script>
+  <section class="conference-section" id="conference">
+    <div class="wrap section-space">
+      <div class="section-heading"><div><p class="eyebrow">CONFERENCE / 2026.06.21</p><h2>生産者との会話と、野菜を買う行動</h2></div><p>日本フードシステム学会<br>筆頭著者・主担当</p></div>
+      <div class="conference-layout">
+        <div>
+          <figure class="document-image conference-image">
+            <a href="../assets/canva-conference.png" data-image-preview aria-label="本人制作の学会発表資料を拡大"><img src="../assets/canva-conference.png" alt="本人が制作した日本フードシステム学会の発表資料表紙" width="596" height="336" loading="lazy" decoding="async"></a>
+            <figcaption>本人制作の学会発表資料 <span>画像を開く ↗</span></figcaption>
+          </figure>
+          <p class="paper-title">農産物直売所における生産者との会話が野菜購買に与える影響―属性および消費者意識に着目して―</p>
+        </div>
+        <div class="conference-copy">
+          <p class="big-fact"><strong>975</strong><span>件のデータを分析</span></p>
+          <dl class="research-notes">
+            <div><dt>問い</dt><dd>生産者との会話と野菜購買の関係を、属性や消費者意識も含めて捉える</dd></div>
+            <div><dt>分析</dt><dd>ロジスティック回帰とモデル比較を用いて検討</dd></div>
+            <div><dt>発表</dt><dd>2026年6月21日、日本フードシステム学会で発表</dd></div>
+          </dl>
+          <p class="scope-note">具体的な推定結果と解釈は、発表資料の内容を確認後に追記する</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section-space experiments" id="signage">
+    <div class="section-heading"><div><p class="eyebrow">EXPERIMENTS &amp; SURVEYS</p><h2>差を見つけるだけでなく、<br>どこまで言えるかを考える</h2></div></div>
+    <article class="signage-study">
+      <div class="study-heading"><span class="study-index">01</span><div><p class="eyebrow">サイネージ映像比較実験</p><h3>5つの映像から、何を選べるか</h3></div></div>
+      <p class="study-intro">見せ方の異なる5種類の映像を比較し、購入可能性の評価を分析した<br>実験設計、映像制作、フォーム作成、回答収集、Rでの分析、レポート作成まで担当した</p>
+      <dl class="fact-strip"><div><dt>比較した映像</dt><dd><strong>5</strong><small>種類</small></dd></div><div><dt>参加者</dt><dd><strong>64</strong><small>名</small></dd></div><div><dt>分析対象</dt><dd><strong>320</strong><small>観測</small></dd></div></dl>
+      <div class="finding-grid">
+        <div><p class="note-label">分かったこと</p><h4>Bのみが、他の4案より低い</h4><p>購入可能性の評価で、Bは他の4案より有意に低かった</p></div>
+        <div><p class="note-label">判断の境界</p><h4>残る4案の「最良」は決められない</h4><p>上位4案の間に有意差はなかった<br>この結果だけで1案を最良とせず、実際の購買への効果も断定しない</p></div>
+      </div>
+      <a class="text-link" href="../stories/index.html#signage">実験を動かした経験を読む <span aria-hidden="true">↗</span></a>
+    </article>
+    <div class="study-list">
+      <details class="story" id="ticket">
+        <summary><span class="story-number">02</span><span class="story-summary"><strong>券売機表示実験</strong><span class="summary-description">湯気のある広告で、商品出数は変わるか</span></span><span class="disclosure" aria-hidden="true"></span></summary>
+        <div class="story-body"><p>湯気あり・湯気なしの広告を券売機各1台に固定し、商品出数を比較した</p><div class="finding"><h3>有意差は確認できなかった</h3><p>無作為割付ではないため、表示以外の条件の影響を切り分けられていない<br>有意差がないことを、そのまま効果がないという結論にはしない</p></div><a class="text-link" href="../stories/index.html#ticket">取り組みのストーリーへ <span aria-hidden="true">↗</span></a></div>
+      </details>
+      <details class="story" id="roadside">
+        <summary><span class="story-number">03</span><span class="story-summary"><strong>道の駅出荷者調査</strong><span class="summary-description">出荷を続ける判断に、何が関係するか</span></span><span class="disclosure" aria-hidden="true"></span></summary>
+        <div class="story-body"><p>出荷継続に関わる要因を回帰分析で検討した<br>学内報告会で17報告中1位となり、その後の研究へとつながった</p><p class="scope-note">標本情報、具体的な分析結果、学会研究との関係の詳細は確認後に追記する</p><a class="text-link" href="../stories/index.html#roadside">取り組みのストーリーへ <span aria-hidden="true">↗</span></a></div>
+      </details>
+      <details class="story" id="apple">
+        <summary><span class="story-number">04</span><span class="story-summary"><strong>リンゴ消費者行動調査</strong><span class="summary-description">贈答用と通常用で、許容価格は変わるか</span></span><span class="disclosure" aria-hidden="true"></span></summary>
+        <div class="story-body"><p>贈答用と通常のリンゴについて、許容価格を比較した</p><p class="scope-note">標本情報と検定条件の詳細が未確認のため、有意差の解釈や具体的な数値は確認後に追記する</p></div>
+      </details>
+    </div>
+  </section>
+  <nav class="page-next wrap" aria-label="関連ページ"><a href="../stories/index.html"><span>01 / STORIES</span><strong>判断を、企画と実行へ</strong><span aria-hidden="true">↗</span></a><a href="../about/index.html"><span>03 / ABOUT</span><strong>問いを立てる人の素顔</strong><span aria-hidden="true">↗</span></a></nav>
+</main>
+  <footer class="site-footer">
+    <div><a class="footer-name" href="../index.html">Yuto Yoshitani</a><p>芳谷 優斗 · 東洋大学 · 2028年3月卒業予定</p></div>
+    <a class="back-top" href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a>
+    <small>© <span data-year>2026</span> Yuto Yoshitani</small>
+  </footer>
 </body>
 </html>
